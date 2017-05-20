@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+п»ї<!DOCTYPE html>
 <html ng-app="game">
 	<head>
 		<title>Test</title>
@@ -12,7 +12,7 @@
 			<div class="board" ng-controller="boardCtrl">
 				<form role="form">
 					<div class="form-group"  ng-class="{'has-error':!setting.dimension}">
-						<label>Выберите размер доски, чтобы начать игру:</label>
+						<label>Р’С‹Р±РµСЂРёС‚Рµ СЂР°Р·РјРµСЂ РґРѕСЃРєРё, С‡С‚РѕР±С‹ РЅР°С‡Р°С‚СЊ РёРіСЂСѓ:</label>
 						<select class="form-control" ng-model="setting.dimension">
 							<option value="[10,10]">10x10</option>
 							<option value="[24,24]">24x24</option>
@@ -20,7 +20,7 @@
 						</select>
 					</div>
 					<div class="form-group" ng-class="{'has-error':setting.mineNum < 1}" >
-						<label>Количество мин: </label>
+						<label>РљРѕР»РёС‡РµСЃС‚РІРѕ РјРёРЅ: </label>
 						<input class="form-control" type=number ng-model="setting.mineNum" />
 					</div>
 					<div class="form-group">
